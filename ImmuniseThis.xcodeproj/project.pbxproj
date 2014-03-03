@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F406EF081172F10200EB4198 /* MainMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F406EF071172F10200EB4198 /* MainMenuItemController.m */; };
+		F40BF6021129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF5FF1129FD0300A45718 /* ImmuniseThisAppDelegate.m */; };
+		F40BF6031129FD0300A45718 /* ImmuniseThisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF6011129FD0300A45718 /* ImmuniseThisViewController.m */; };
+		F40BF6041129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF5FF1129FD0300A45718 /* ImmuniseThisAppDelegate.m */; };
+		F40BF6051129FD0300A45718 /* ImmuniseThisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF6011129FD0300A45718 /* ImmuniseThisViewController.m */; };
+		F40BF6061129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF5FF1129FD0300A45718 /* ImmuniseThisAppDelegate.m */; };
+		F40BF6071129FD0300A45718 /* ImmuniseThisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BF6011129FD0300A45718 /* ImmuniseThisViewController.m */; };
+		F40CA029117BC56F0070EAF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CA028117BC56F0070EAF3 /* MediaPlayer.framework */; };
+		F40CA03A117BC57C0070EAF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CA028117BC56F0070EAF3 /* MediaPlayer.framework */; };
+		F40CA03B117BC57D0070EAF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CA028117BC56F0070EAF3 /* MediaPlayer.framework */; };
+		F434BD5B111F51070023EEBE /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DEE287111E409500572265 /* CellView.m */; };
+		F43C9FCD1123472F008CB8B4 /* PlayerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1C12C111E4F54003344F8 /* PlayerCellController.m */; };
+		F43C9FDA1123477B008CB8B4 /* PlayerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1C12C111E4F54003344F8 /* PlayerCellController.m */; };
+		F43C9FF9112347D0008CB8B4 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DEE287111E409500572265 /* CellView.m */; };
+		F43CA03A11234A4D008CB8B4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA03611234A4D008CB8B4 /* Person.m */; };
+		F43CA03C11234A4D008CB8B4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA03611234A4D008CB8B4 /* Person.m */; };
+		F43CA03E11234A4D008CB8B4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA03611234A4D008CB8B4 /* Person.m */; };
+		F43CA05D11234AF3008CB8B4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA05C11234AF3008CB8B4 /* Game.m */; };
+		F43CA05E11234AF3008CB8B4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA05C11234AF3008CB8B4 /* Game.m */; };
+		F43CA05F11234AF3008CB8B4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CA05C11234AF3008CB8B4 /* Game.m */; };
+		F443147E11739EFD004C5C92 /* MainMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F406EF071172F10200EB4198 /* MainMenuItemController.m */; };
+		F443147F11739F0D004C5C92 /* MainMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F406EF071172F10200EB4198 /* MainMenuItemController.m */; };
+		F44CCE38117B94B300C933AD /* ProjectileDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CCE37117B94B300C933AD /* ProjectileDispenser.m */; };
+		F44CCE39117B94B300C933AD /* ProjectileDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CCE37117B94B300C933AD /* ProjectileDispenser.m */; };
+		F44CCE3A117B94B300C933AD /* ProjectileDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CCE37117B94B300C933AD /* ProjectileDispenser.m */; };
+		F44CD33D117BB15C00C933AD /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33B117BB15C00C933AD /* enemy.png */; };
+		F44CD33E117BB15C00C933AD /* friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33C117BB15C00C933AD /* friendly.png */; };
+		F44CD33F117BB15C00C933AD /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33B117BB15C00C933AD /* enemy.png */; };
+		F44CD340117BB15C00C933AD /* friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33C117BB15C00C933AD /* friendly.png */; };
+		F44CD341117BB15C00C933AD /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33B117BB15C00C933AD /* enemy.png */; };
+		F44CD342117BB15C00C933AD /* friendly.png in Resources */ = {isa = PBXBuildFile; fileRef = F44CD33C117BB15C00C933AD /* friendly.png */; };
+		F44CD430117BB7AC00C933AD /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CD42F117BB7AC00C933AD /* ImageManager.m */; };
+		F44CD431117BB7AC00C933AD /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CD42F117BB7AC00C933AD /* ImageManager.m */; };
+		F44CD432117BB7AC00C933AD /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F44CD42F117BB7AC00C933AD /* ImageManager.m */; };
+		F4549469115294E800DE04ED /* ProjectileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4549468115294E800DE04ED /* ProjectileController.m */; };
+		F454946A115294E800DE04ED /* ProjectileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4549468115294E800DE04ED /* ProjectileController.m */; };
+		F454946B115294E800DE04ED /* ProjectileController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4549468115294E800DE04ED /* ProjectileController.m */; };
+		F45A71D8115051B100145AB7 /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A71D7115051B100145AB7 /* Movement.m */; };
+		F45A71D9115051B100145AB7 /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A71D7115051B100145AB7 /* Movement.m */; };
+		F45A71DA115051B100145AB7 /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = F45A71D7115051B100145AB7 /* Movement.m */; };
+		F476452D113EDE4100C652AD /* TimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F476452C113EDE4100C652AD /* TimerTask.m */; };
+		F476452E113EDE4100C652AD /* TimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F476452C113EDE4100C652AD /* TimerTask.m */; };
+		F476452F113EDE4100C652AD /* TimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = F476452C113EDE4100C652AD /* TimerTask.m */; };
+		F484F58B1134814B00973807 /* Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = F484F58A1134814B00973807 /* Colour.m */; };
+		F484F58C1134814B00973807 /* Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = F484F58A1134814B00973807 /* Colour.m */; };
+		F484F58D1134814B00973807 /* Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = F484F58A1134814B00973807 /* Colour.m */; };
+		F484F5941134826F00973807 /* ColourTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F484F5931134826F00973807 /* ColourTest.m */; };
+		F484F5951134826F00973807 /* ColourTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F484F5931134826F00973807 /* ColourTest.m */; };
+		F4873CA4111F659D0067827A /* CellViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F434BE5E111F623B0023EEBE /* CellViewTest.m */; };
+		F4895E6D1159EEA8004BE813 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895E6C1159EEA8004BE813 /* Menu.m */; };
+		F4895E6E1159EEA8004BE813 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895E6C1159EEA8004BE813 /* Menu.m */; };
+		F4895E6F1159EEA8004BE813 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895E6C1159EEA8004BE813 /* Menu.m */; };
+		F4895EB51159F319004BE813 /* MenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895EB41159F319004BE813 /* MenuItemView.m */; };
+		F4895EB61159F319004BE813 /* MenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895EB41159F319004BE813 /* MenuItemView.m */; };
+		F4895EB71159F319004BE813 /* MenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4895EB41159F319004BE813 /* MenuItemView.m */; };
+		F48A4D26116C58D5004DE3C4 /* MenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D25116C58D5004DE3C4 /* MenuItemController.m */; };
+		F48A4D27116C58D5004DE3C4 /* MenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D25116C58D5004DE3C4 /* MenuItemController.m */; };
+		F48A4D28116C58D5004DE3C4 /* MenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D25116C58D5004DE3C4 /* MenuItemController.m */; };
+		F48A4D73116C5CBA004DE3C4 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D72116C5CBA004DE3C4 /* MenuItem.m */; };
+		F48A4D74116C5CBA004DE3C4 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D72116C5CBA004DE3C4 /* MenuItem.m */; };
+		F48A4D75116C5CBA004DE3C4 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A4D72116C5CBA004DE3C4 /* MenuItem.m */; };
+		F48AF69E11724CDB004844ED /* GameMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF69D11724CDB004844ED /* GameMenuItemController.m */; };
+		F48AF69F11724CDB004844ED /* GameMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF69D11724CDB004844ED /* GameMenuItemController.m */; };
+		F48AF6A011724CDB004844ED /* GameMenuItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF69D11724CDB004844ED /* GameMenuItemController.m */; };
+		F48AF6B311724E6F004844ED /* ExitMenuitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF6B211724E6F004844ED /* ExitMenuitemController.m */; };
+		F48AF6B411724E6F004844ED /* ExitMenuitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF6B211724E6F004844ED /* ExitMenuitemController.m */; };
+		F48AF6B511724E6F004844ED /* ExitMenuitemController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF6B211724E6F004844ED /* ExitMenuitemController.m */; };
+		F48AF732117252C7004844ED /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF731117252C7004844ED /* GameState.m */; };
+		F48AF733117252C7004844ED /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF731117252C7004844ED /* GameState.m */; };
+		F48AF734117252C7004844ED /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = F48AF731117252C7004844ED /* GameState.m */; };
+		F48BF7B9117C24D50037C8A4 /* ComputerCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7B8117C24D50037C8A4 /* ComputerCellFactory.m */; };
+		F48BF7BA117C24D50037C8A4 /* ComputerCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7B8117C24D50037C8A4 /* ComputerCellFactory.m */; };
+		F48BF7BB117C24D50037C8A4 /* ComputerCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7B8117C24D50037C8A4 /* ComputerCellFactory.m */; };
+		F48BF7BF117C26110037C8A4 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7BE117C26110037C8A4 /* EventManager.m */; };
+		F48BF7C0117C26110037C8A4 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7BE117C26110037C8A4 /* EventManager.m */; };
+		F48BF7C1117C26110037C8A4 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BF7BE117C26110037C8A4 /* EventManager.m */; };
+		F48BFB30117CF83A0037C8A4 /* EndGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BFB2F117CF83A0037C8A4 /* EndGame.m */; };
+		F48BFB31117CF83A0037C8A4 /* EndGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BFB2F117CF83A0037C8A4 /* EndGame.m */; };
+		F48BFB32117CF83A0037C8A4 /* EndGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F48BFB2F117CF83A0037C8A4 /* EndGame.m */; };
+		F49259521131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49259511131B1A9000E9D0A /* ImmuniseThisViewController.xib */; };
+		F49259531131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49259511131B1A9000E9D0A /* ImmuniseThisViewController.xib */; };
+		F49259541131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49259511131B1A9000E9D0A /* ImmuniseThisViewController.xib */; };
+		F492A33C115134C300A8EC54 /* TokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A33B115134C300A8EC54 /* TokenView.m */; };
+		F492A33D115134C300A8EC54 /* TokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A33B115134C300A8EC54 /* TokenView.m */; };
+		F492A33E115134C300A8EC54 /* TokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A33B115134C300A8EC54 /* TokenView.m */; };
+		F492A4621151985700A8EC54 /* ProjectileView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A4611151985700A8EC54 /* ProjectileView.m */; };
+		F492A4631151985700A8EC54 /* ProjectileView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A4611151985700A8EC54 /* ProjectileView.m */; };
+		F492A4641151985700A8EC54 /* ProjectileView.m in Sources */ = {isa = PBXBuildFile; fileRef = F492A4611151985700A8EC54 /* ProjectileView.m */; };
+		F497804E117A41330005DA75 /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F497804D117A41330005DA75 /* ScoreView.m */; };
+		F497804F117A41330005DA75 /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F497804D117A41330005DA75 /* ScoreView.m */; };
+		F4978050117A41330005DA75 /* ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = F497804D117A41330005DA75 /* ScoreView.m */; };
+		F4978055117A417E0005DA75 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F4978054117A417E0005DA75 /* Score.m */; };
+		F4978056117A417E0005DA75 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F4978054117A417E0005DA75 /* Score.m */; };
+		F4978057117A417E0005DA75 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = F4978054117A417E0005DA75 /* Score.m */; };
+		F497805E117A42690005DA75 /* ScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = F497805D117A42690005DA75 /* ScoreController.m */; };
+		F497805F117A42690005DA75 /* ScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = F497805D117A42690005DA75 /* ScoreController.m */; };
+		F4978060117A42690005DA75 /* ScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = F497805D117A42690005DA75 /* ScoreController.m */; };
+		F4979A441177A75C001C90A9 /* BackgroundElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A431177A75C001C90A9 /* BackgroundElementView.m */; };
+		F4979A451177A75C001C90A9 /* BackgroundElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A431177A75C001C90A9 /* BackgroundElementView.m */; };
+		F4979A461177A75C001C90A9 /* BackgroundElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A431177A75C001C90A9 /* BackgroundElementView.m */; };
+		F4979A5D1177A882001C90A9 /* BackgroundElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A5C1177A882001C90A9 /* BackgroundElement.m */; };
+		F4979A5E1177A882001C90A9 /* BackgroundElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A5C1177A882001C90A9 /* BackgroundElement.m */; };
+		F4979A5F1177A882001C90A9 /* BackgroundElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F4979A5C1177A882001C90A9 /* BackgroundElement.m */; };
+		F4A0F53F1151C0A700A035CD /* TokenController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F53E1151C0A700A035CD /* TokenController.m */; };
+		F4A0F5401151C0A700A035CD /* TokenController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F53E1151C0A700A035CD /* TokenController.m */; };
+		F4A0F5411151C0A700A035CD /* TokenController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F53E1151C0A700A035CD /* TokenController.m */; };
+		F4A0F5951151C42600A035CD /* BackgroundElementController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F5941151C42600A035CD /* BackgroundElementController.m */; };
+		F4A0F5961151C42600A035CD /* BackgroundElementController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F5941151C42600A035CD /* BackgroundElementController.m */; };
+		F4A0F5971151C42600A035CD /* BackgroundElementController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0F5941151C42600A035CD /* BackgroundElementController.m */; };
+		F4A328E41146D6CD00404E85 /* CellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A328E31146D6CD00404E85 /* CellConfiguration.m */; };
+		F4A328E51146D6CD00404E85 /* CellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A328E31146D6CD00404E85 /* CellConfiguration.m */; };
+		F4A328E61146D6CD00404E85 /* CellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A328E31146D6CD00404E85 /* CellConfiguration.m */; };
+		F4A615591179ED5100E7FF4D /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A615581179ED5100E7FF4D /* SoundManager.m */; };
+		F4A6155A1179ED5100E7FF4D /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A615581179ED5100E7FF4D /* SoundManager.m */; };
+		F4A6155B1179ED5100E7FF4D /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A615581179ED5100E7FF4D /* SoundManager.m */; };
+		F4A617A61179FA1100E7FF4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A617A51179FA1100E7FF4D /* AudioToolbox.framework */; };
+		F4A618381179FC7700E7FF4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A617A51179FA1100E7FF4D /* AudioToolbox.framework */; };
+		F4A618391179FC8200E7FF4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A617A51179FA1100E7FF4D /* AudioToolbox.framework */; };
+		F4A6188D117A04C700E7FF4D /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6188C117A04C700E7FF4D /* boing.wav */; };
+		F4A6188E117A04C700E7FF4D /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6188C117A04C700E7FF4D /* boing.wav */; };
+		F4A6188F117A04C700E7FF4D /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6188C117A04C700E7FF4D /* boing.wav */; };
+		F4A618A1117A081E00E7FF4D /* squish1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6189F117A081E00E7FF4D /* squish1.wav */; };
+		F4A618A2117A081E00E7FF4D /* squish2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A618A0117A081E00E7FF4D /* squish2.wav */; };
+		F4A618A3117A081E00E7FF4D /* squish1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6189F117A081E00E7FF4D /* squish1.wav */; };
+		F4A618A4117A081E00E7FF4D /* squish2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A618A0117A081E00E7FF4D /* squish2.wav */; };
+		F4A618A5117A081E00E7FF4D /* squish1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A6189F117A081E00E7FF4D /* squish1.wav */; };
+		F4A618A6117A081E00E7FF4D /* squish2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4A618A0117A081E00E7FF4D /* squish2.wav */; };
+		F4B37F5111723437008F51A3 /* GameStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B37F5011723437008F51A3 /* GameStateContext.m */; };
+		F4B37F5211723437008F51A3 /* GameStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B37F5011723437008F51A3 /* GameStateContext.m */; };
+		F4B37F5311723437008F51A3 /* GameStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B37F5011723437008F51A3 /* GameStateContext.m */; };
+		F4B55F4111743BAF001D5820 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F4011743BAF001D5820 /* CollisionManager.m */; };
+		F4B55F5811743F9D001D5820 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F5711743F9D001D5820 /* Token.m */; };
+		F4B55FA411744437001D5820 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F5711743F9D001D5820 /* Token.m */; };
+		F4B55FA511744437001D5820 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F5711743F9D001D5820 /* Token.m */; };
+		F4B55FCE117444E0001D5820 /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55FCD117444E0001D5820 /* Projectile.m */; };
+		F4B5604A1174EDC6001D5820 /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55FCD117444E0001D5820 /* Projectile.m */; };
+		F4B5604B1174EDC7001D5820 /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55FCD117444E0001D5820 /* Projectile.m */; };
+		F4B5613F117508CF001D5820 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F4011743BAF001D5820 /* CollisionManager.m */; };
+		F4B56140117508D0001D5820 /* CollisionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B55F4011743BAF001D5820 /* CollisionManager.m */; };
+		F4B78902112C7EDE00670358 /* InteractionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B78901112C7EDE00670358 /* InteractionEvent.m */; };
+		F4B78903112C7EDE00670358 /* InteractionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B78901112C7EDE00670358 /* InteractionEvent.m */; };
+		F4B78904112C7EDE00670358 /* InteractionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B78901112C7EDE00670358 /* InteractionEvent.m */; };
+		F4B7898C112C898B00670358 /* VectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B7898B112C898B00670358 /* VectorTest.m */; };
+		F4B7898D112C898B00670358 /* VectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B7898B112C898B00670358 /* VectorTest.m */; };
+		F4BD52FF111A2B1E00BC0120 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD52FE111A2B1E00BC0120 /* Cell.m */; };
+		F4BD535B111A341300BC0120 /* Organelle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD535A111A341300BC0120 /* Organelle.m */; };
+		F4BD5389111A36F400BC0120 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BD5388111A36F400BC0120 /* SenTestingKit.framework */; };
+		F4CD7E90112A0476008E3733 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F4D6CA931129C3DF00FF039D /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CA921129C3DF00FF039D /* Vector.m */; };
+		F4D6CA941129C3DF00FF039D /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CA921129C3DF00FF039D /* Vector.m */; };
+		F4D6CA951129C3DF00FF039D /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CA921129C3DF00FF039D /* Vector.m */; };
+		F4D6CB3B1129C8C700FF039D /* Arena.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB3A1129C8C700FF039D /* Arena.m */; };
+		F4D6CB3C1129C8C700FF039D /* Arena.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB3A1129C8C700FF039D /* Arena.m */; };
+		F4D6CB3D1129C8C700FF039D /* Arena.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB3A1129C8C700FF039D /* Arena.m */; };
+		F4D6CB991129CB5700FF039D /* CellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB981129CB5700FF039D /* CellController.m */; };
+		F4D6CB9A1129CB5700FF039D /* CellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB981129CB5700FF039D /* CellController.m */; };
+		F4D6CB9B1129CB5700FF039D /* CellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CB981129CB5700FF039D /* CellController.m */; };
+		F4D6CCAE1129DFD000FF039D /* ComputerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CCAD1129DFD000FF039D /* ComputerCellController.m */; };
+		F4D6CCAF1129DFD000FF039D /* ComputerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CCAD1129DFD000FF039D /* ComputerCellController.m */; };
+		F4D6CCB01129DFD000FF039D /* ComputerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6CCAD1129DFD000FF039D /* ComputerCellController.m */; };
+		F4D74168114A944900D442D8 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D74167114A944900D442D8 /* TextView.m */; };
+		F4D74169114A944900D442D8 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D74167114A944900D442D8 /* TextView.m */; };
+		F4D7416A114A944900D442D8 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D74167114A944900D442D8 /* TextView.m */; };
+		F4EC7770117D384C00A0B7EE /* Runnable.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EC776F117D384C00A0B7EE /* Runnable.m */; };
+		F4EC7771117D384C00A0B7EE /* Runnable.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EC776F117D384C00A0B7EE /* Runnable.m */; };
+		F4EC7772117D384C00A0B7EE /* Runnable.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EC776F117D384C00A0B7EE /* Runnable.m */; };
+		F4F1BFA9111E4BCD003344F8 /* ObservableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D188E2111E188E0096BC61 /* ObservableTest.m */; };
+		F4F1BFAB111E4BCD003344F8 /* OrganelleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD571B111B93B000BC0120 /* OrganelleTest.m */; };
+		F4F1BFAC111E4BCD003344F8 /* PersonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD55BB111B722E00BC0120 /* PersonTest.m */; };
+		F4F1BFAE111E4BE5003344F8 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DEE287111E409500572265 /* CellView.m */; };
+		F4F1BFB0111E4BE5003344F8 /* Organelle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD535A111A341300BC0120 /* Organelle.m */; };
+		F4F1BFBC111E4C0E003344F8 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD52FE111A2B1E00BC0120 /* Cell.m */; };
+		F4F1BFD7111E4C22003344F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F4F1BFD9111E4C22003344F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		F4F1BFDB111E4C22003344F8 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD52FE111A2B1E00BC0120 /* Cell.m */; };
+		F4F1BFDD111E4C22003344F8 /* Organelle.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BD535A111A341300BC0120 /* Organelle.m */; };
+		F4F1BFDF111E4C22003344F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F4F1BFE0111E4C22003344F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F4F1BFE1111E4C22003344F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		F4F1C0C3111E4D64003344F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BD5388111A36F400BC0120 /* SenTestingKit.framework */; };
+		F4F1C0C4111E4D68003344F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F4F1C0C5111E4D68003344F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F4F1C0C6111E4D68003344F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		F4F1C0C7111E4D68003344F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BD5388111A36F400BC0120 /* SenTestingKit.framework */; };
+		F4F1C0E3111E4D95003344F8 /* ImmuniseThisTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = F4F1BF96111E4B80003344F8 /* ImmuniseThisTests.octest */; };
+		F4F1C12D111E4F54003344F8 /* PlayerCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1C12C111E4F54003344F8 /* PlayerCellController.m */; };
+		F4F1C155111E512F003344F8 /* CellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F1C150111E5116003344F8 /* CellTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F1C0E7111E4D9C003344F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F1BF95111E4B80003344F8;
+			remoteInfo = ImmuniseThisTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* ImmuniseThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmuniseThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ImmuniseThis_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmuniseThis_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ImmuniseThis-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ImmuniseThis-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F406EF061172F10200EB4198 /* MainMenuItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuItemController.h; sourceTree = "<group>"; };
+		F406EF071172F10200EB4198 /* MainMenuItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuItemController.m; sourceTree = "<group>"; };
+		F40BF5FE1129FD0300A45718 /* ImmuniseThisAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmuniseThisAppDelegate.h; sourceTree = "<group>"; };
+		F40BF5FF1129FD0300A45718 /* ImmuniseThisAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmuniseThisAppDelegate.m; sourceTree = "<group>"; };
+		F40BF6001129FD0300A45718 /* ImmuniseThisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmuniseThisViewController.h; sourceTree = "<group>"; };
+		F40BF6011129FD0300A45718 /* ImmuniseThisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmuniseThisViewController.m; sourceTree = "<group>"; };
+		F40CA028117BC56F0070EAF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F434BE5D111F623B0023EEBE /* CellViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewTest.h; sourceTree = "<group>"; };
+		F434BE5E111F623B0023EEBE /* CellViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewTest.m; sourceTree = "<group>"; };
+		F43CA03611234A4D008CB8B4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F43CA03711234A4D008CB8B4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F43CA05B11234AF3008CB8B4 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F43CA05C11234AF3008CB8B4 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		F44CCE36117B94B300C933AD /* ProjectileDispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileDispenser.h; sourceTree = "<group>"; };
+		F44CCE37117B94B300C933AD /* ProjectileDispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileDispenser.m; sourceTree = "<group>"; };
+		F44CD33B117BB15C00C933AD /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		F44CD33C117BB15C00C933AD /* friendly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friendly.png; sourceTree = "<group>"; };
+		F44CD42E117BB7AC00C933AD /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		F44CD42F117BB7AC00C933AD /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		F4549467115294E800DE04ED /* ProjectileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileController.h; sourceTree = "<group>"; };
+		F4549468115294E800DE04ED /* ProjectileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileController.m; sourceTree = "<group>"; };
+		F45A71D6115051B100145AB7 /* Movement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movement.h; sourceTree = "<group>"; };
+		F45A71D7115051B100145AB7 /* Movement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movement.m; sourceTree = "<group>"; };
+		F476452B113EDE4100C652AD /* TimerTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerTask.h; sourceTree = "<group>"; };
+		F476452C113EDE4100C652AD /* TimerTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTask.m; sourceTree = "<group>"; };
+		F484F5891134814B00973807 /* Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colour.h; sourceTree = "<group>"; };
+		F484F58A1134814B00973807 /* Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colour.m; sourceTree = "<group>"; };
+		F484F5921134826F00973807 /* ColourTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourTest.h; sourceTree = "<group>"; };
+		F484F5931134826F00973807 /* ColourTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourTest.m; sourceTree = "<group>"; };
+		F4895E6B1159EEA8004BE813 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		F4895E6C1159EEA8004BE813 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		F4895EB31159F319004BE813 /* MenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemView.h; sourceTree = "<group>"; };
+		F4895EB41159F319004BE813 /* MenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemView.m; sourceTree = "<group>"; };
+		F48A4D24116C58D5004DE3C4 /* MenuItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemController.h; sourceTree = "<group>"; };
+		F48A4D25116C58D5004DE3C4 /* MenuItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemController.m; sourceTree = "<group>"; };
+		F48A4D48116C5A22004DE3C4 /* InteractionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionHandler.h; sourceTree = "<group>"; };
+		F48A4D71116C5CBA004DE3C4 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		F48A4D72116C5CBA004DE3C4 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		F48AF69C11724CDB004844ED /* GameMenuItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenuItemController.h; sourceTree = "<group>"; };
+		F48AF69D11724CDB004844ED /* GameMenuItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuItemController.m; sourceTree = "<group>"; };
+		F48AF6B111724E6F004844ED /* ExitMenuitemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExitMenuitemController.h; sourceTree = "<group>"; };
+		F48AF6B211724E6F004844ED /* ExitMenuitemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExitMenuitemController.m; sourceTree = "<group>"; };
+		F48AF730117252C7004844ED /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		F48AF731117252C7004844ED /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		F48AF97A117262AF004844ED /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		F48BF7B7117C24D50037C8A4 /* ComputerCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerCellFactory.h; sourceTree = "<group>"; };
+		F48BF7B8117C24D50037C8A4 /* ComputerCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerCellFactory.m; sourceTree = "<group>"; };
+		F48BF7BD117C26110037C8A4 /* EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
+		F48BF7BE117C26110037C8A4 /* EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
+		F48BF7C2117C264D0037C8A4 /* EventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventHandler.h; sourceTree = "<group>"; };
+		F48BFB2E117CF83A0037C8A4 /* EndGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndGame.h; sourceTree = "<group>"; };
+		F48BFB2F117CF83A0037C8A4 /* EndGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndGame.m; sourceTree = "<group>"; };
+		F49259511131B1A9000E9D0A /* ImmuniseThisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImmuniseThisViewController.xib; sourceTree = "<group>"; };
+		F492A33A115134C300A8EC54 /* TokenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenView.h; sourceTree = "<group>"; };
+		F492A33B115134C300A8EC54 /* TokenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenView.m; sourceTree = "<group>"; };
+		F492A4601151985700A8EC54 /* ProjectileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileView.h; sourceTree = "<group>"; };
+		F492A4611151985700A8EC54 /* ProjectileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileView.m; sourceTree = "<group>"; };
+		F497804C117A41330005DA75 /* ScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreView.h; sourceTree = "<group>"; };
+		F497804D117A41330005DA75 /* ScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreView.m; sourceTree = "<group>"; };
+		F4978053117A417E0005DA75 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		F4978054117A417E0005DA75 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		F497805C117A42690005DA75 /* ScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreController.h; sourceTree = "<group>"; };
+		F497805D117A42690005DA75 /* ScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreController.m; sourceTree = "<group>"; };
+		F4979A421177A75C001C90A9 /* BackgroundElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundElementView.h; sourceTree = "<group>"; };
+		F4979A431177A75C001C90A9 /* BackgroundElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundElementView.m; sourceTree = "<group>"; };
+		F4979A5B1177A882001C90A9 /* BackgroundElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundElement.h; sourceTree = "<group>"; };
+		F4979A5C1177A882001C90A9 /* BackgroundElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundElement.m; sourceTree = "<group>"; };
+		F4A0F53D1151C0A700A035CD /* TokenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenController.h; sourceTree = "<group>"; };
+		F4A0F53E1151C0A700A035CD /* TokenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenController.m; sourceTree = "<group>"; };
+		F4A0F5931151C42600A035CD /* BackgroundElementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundElementController.h; sourceTree = "<group>"; };
+		F4A0F5941151C42600A035CD /* BackgroundElementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundElementController.m; sourceTree = "<group>"; };
+		F4A328E21146D6CD00404E85 /* CellConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellConfiguration.h; sourceTree = "<group>"; };
+		F4A328E31146D6CD00404E85 /* CellConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellConfiguration.m; sourceTree = "<group>"; };
+		F4A615571179ED5100E7FF4D /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		F4A615581179ED5100E7FF4D /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		F4A617A51179FA1100E7FF4D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F4A6188C117A04C700E7FF4D /* boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing.wav; sourceTree = "<group>"; };
+		F4A6189F117A081E00E7FF4D /* squish1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = squish1.wav; sourceTree = "<group>"; };
+		F4A618A0117A081E00E7FF4D /* squish2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = squish2.wav; sourceTree = "<group>"; };
+		F4B37F4F11723437008F51A3 /* GameStateContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateContext.h; sourceTree = "<group>"; };
+		F4B37F5011723437008F51A3 /* GameStateContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStateContext.m; sourceTree = "<group>"; };
+		F4B55F3F11743BAF001D5820 /* CollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionManager.h; sourceTree = "<group>"; };
+		F4B55F4011743BAF001D5820 /* CollisionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionManager.m; sourceTree = "<group>"; };
+		F4B55F5311743E6A001D5820 /* CollisionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionHandler.h; sourceTree = "<group>"; };
+		F4B55F5611743F9D001D5820 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		F4B55F5711743F9D001D5820 /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		F4B55FCC117444E0001D5820 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		F4B55FCD117444E0001D5820 /* Projectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projectile.m; sourceTree = "<group>"; };
+		F4B78900112C7EDE00670358 /* InteractionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionEvent.h; sourceTree = "<group>"; };
+		F4B78901112C7EDE00670358 /* InteractionEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionEvent.m; sourceTree = "<group>"; };
+		F4B7898A112C898B00670358 /* VectorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTest.h; sourceTree = "<group>"; };
+		F4B7898B112C898B00670358 /* VectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorTest.m; sourceTree = "<group>"; };
+		F4BD52FD111A2B1E00BC0120 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		F4BD52FE111A2B1E00BC0120 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		F4BD5359111A341300BC0120 /* Organelle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organelle.h; sourceTree = "<group>"; };
+		F4BD535A111A341300BC0120 /* Organelle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organelle.m; sourceTree = "<group>"; };
+		F4BD5388111A36F400BC0120 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4BD53F4111A3B8A00BC0120 /* ImmuniseThisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImmuniseThisTests-Info.plist"; sourceTree = "<group>"; };
+		F4BD55BA111B722E00BC0120 /* PersonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTest.h; sourceTree = "<group>"; };
+		F4BD55BB111B722E00BC0120 /* PersonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTest.m; sourceTree = "<group>"; };
+		F4BD571A111B93B000BC0120 /* OrganelleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganelleTest.h; sourceTree = "<group>"; };
+		F4BD571B111B93B000BC0120 /* OrganelleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganelleTest.m; sourceTree = "<group>"; };
+		F4D188E1111E188E0096BC61 /* ObservableTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObservableTest.h; sourceTree = "<group>"; };
+		F4D188E2111E188E0096BC61 /* ObservableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObservableTest.m; sourceTree = "<group>"; };
+		F4D6CA911129C3DF00FF039D /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		F4D6CA921129C3DF00FF039D /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		F4D6CB391129C8C700FF039D /* Arena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arena.h; sourceTree = "<group>"; };
+		F4D6CB3A1129C8C700FF039D /* Arena.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arena.m; sourceTree = "<group>"; };
+		F4D6CB971129CB5700FF039D /* CellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellController.h; sourceTree = "<group>"; };
+		F4D6CB981129CB5700FF039D /* CellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellController.m; sourceTree = "<group>"; };
+		F4D6CCAC1129DFD000FF039D /* ComputerCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerCellController.h; sourceTree = "<group>"; };
+		F4D6CCAD1129DFD000FF039D /* ComputerCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerCellController.m; sourceTree = "<group>"; };
+		F4D74166114A944900D442D8 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		F4D74167114A944900D442D8 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		F4DEE286111E409500572265 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		F4DEE287111E409500572265 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		F4EC776E117D384C00A0B7EE /* Runnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runnable.h; sourceTree = "<group>"; };
+		F4EC776F117D384C00A0B7EE /* Runnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runnable.m; sourceTree = "<group>"; };
+		F4F1BF96111E4B80003344F8 /* ImmuniseThisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmuniseThisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F1BFE6111E4C22003344F8 /* ImmuniseThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmuniseThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F1BFE8111E4C22003344F8 /* ImmuniseThis-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImmuniseThis-Info copy.plist"; sourceTree = "<group>"; };
+		F4F1C12B111E4F54003344F8 /* PlayerCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCellController.h; sourceTree = "<group>"; };
+		F4F1C12C111E4F54003344F8 /* PlayerCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCellController.m; sourceTree = "<group>"; };
+		F4F1C14F111E5116003344F8 /* CellTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTest.h; sourceTree = "<group>"; };
+		F4F1C150111E5116003344F8 /* CellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F4BD5389111A36F400BC0120 /* SenTestingKit.framework in Frameworks */,
+				F4A618381179FC7700E7FF4D /* AudioToolbox.framework in Frameworks */,
+				F40CA029117BC56F0070EAF3 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BF93111E4B80003344F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F1C0C4111E4D68003344F8 /* UIKit.framework in Frameworks */,
+				F4F1C0C5111E4D68003344F8 /* Foundation.framework in Frameworks */,
+				F4F1C0C6111E4D68003344F8 /* CoreGraphics.framework in Frameworks */,
+				F4F1C0C7111E4D68003344F8 /* SenTestingKit.framework in Frameworks */,
+				F4A618391179FC8200E7FF4D /* AudioToolbox.framework in Frameworks */,
+				F40CA03A117BC57C0070EAF3 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BFDE111E4C22003344F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F1BFDF111E4C22003344F8 /* Foundation.framework in Frameworks */,
+				F4F1BFE0111E4C22003344F8 /* UIKit.framework in Frameworks */,
+				F4F1BFE1111E4C22003344F8 /* CoreGraphics.framework in Frameworks */,
+				F4F1C0C3111E4D64003344F8 /* SenTestingKit.framework in Frameworks */,
+				F4A617A61179FA1100E7FF4D /* AudioToolbox.framework in Frameworks */,
+				F40CA03B117BC57D0070EAF3 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F42CC9C1111E07A100A69345 /* Framework */,
+				F4A6155C1179ED6000E7FF4D /* System */,
+				F42CC956111E025D00A69345 /* Controller */,
+				F42CC955111E025800A69345 /* View */,
+				F4BD52F9111A295900BC0120 /* Model */,
+				F40BF5FE1129FD0300A45718 /* ImmuniseThisAppDelegate.h */,
+				F40BF5FF1129FD0300A45718 /* ImmuniseThisAppDelegate.m */,
+				F40BF6001129FD0300A45718 /* ImmuniseThisViewController.h */,
+				F40BF6011129FD0300A45718 /* ImmuniseThisViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ImmuniseThis.app */,
+				F4F1BF96111E4B80003344F8 /* ImmuniseThisTests.octest */,
+				F4F1BFE6111E4C22003344F8 /* ImmuniseThis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F4BD5375111A362900BC0120 /* Test */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ImmuniseThis_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44CD33B117BB15C00C933AD /* enemy.png */,
+				F44CD33C117BB15C00C933AD /* friendly.png */,
+				F4A6189F117A081E00E7FF4D /* squish1.wav */,
+				F4A618A0117A081E00E7FF4D /* squish2.wav */,
+				F4A6188C117A04C700E7FF4D /* boing.wav */,
+				F49259511131B1A9000E9D0A /* ImmuniseThisViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* ImmuniseThis-Info.plist */,
+				F4F1BFE8111E4C22003344F8 /* ImmuniseThis-Info copy.plist */,
+				F4BD53F4111A3B8A00BC0120 /* ImmuniseThisTests-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F4BD5388111A36F400BC0120 /* SenTestingKit.framework */,
+				F4A617A51179FA1100E7FF4D /* AudioToolbox.framework */,
+				F40CA028117BC56F0070EAF3 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F42CC94E111E022F00A69345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4DEE280111E405600572265 /* Cell */,
+				F4BD571A111B93B000BC0120 /* OrganelleTest.h */,
+				F4BD571B111B93B000BC0120 /* OrganelleTest.m */,
+				F4BD55BA111B722E00BC0120 /* PersonTest.h */,
+				F4BD55BB111B722E00BC0120 /* PersonTest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F42CC955111E025800A69345 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F492A45B115197C800A8EC54 /* Impl */,
+				F4D6CB391129C8C700FF039D /* Arena.h */,
+				F4D6CB3A1129C8C700FF039D /* Arena.m */,
+				F492A33A115134C300A8EC54 /* TokenView.h */,
+				F492A33B115134C300A8EC54 /* TokenView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F42CC956111E025D00A69345 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4D6CB9C1129CB6000FF039D /* Impl */,
+				F4A328E21146D6CD00404E85 /* CellConfiguration.h */,
+				F4A328E31146D6CD00404E85 /* CellConfiguration.m */,
+				F4D6CB971129CB5700FF039D /* CellController.h */,
+				F4D6CB981129CB5700FF039D /* CellController.m */,
+				F48BF7B7117C24D50037C8A4 /* ComputerCellFactory.h */,
+				F48BF7B8117C24D50037C8A4 /* ComputerCellFactory.m */,
+				F48AF730117252C7004844ED /* GameState.h */,
+				F48AF731117252C7004844ED /* GameState.m */,
+				F44CCE36117B94B300C933AD /* ProjectileDispenser.h */,
+				F44CCE37117B94B300C933AD /* ProjectileDispenser.m */,
+				F4A0F53D1151C0A700A035CD /* TokenController.h */,
+				F4A0F53E1151C0A700A035CD /* TokenController.m */,
+				F48A4D24116C58D5004DE3C4 /* MenuItemController.h */,
+				F48A4D25116C58D5004DE3C4 /* MenuItemController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F42CC9C1111E07A100A69345 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F4764529113EDE2100C652AD /* Thread */,
+				F484F5891134814B00973807 /* Colour.h */,
+				F484F58A1134814B00973807 /* Colour.m */,
+				F45A71D6115051B100145AB7 /* Movement.h */,
+				F45A71D7115051B100145AB7 /* Movement.m */,
+				F48AF97A117262AF004844ED /* State.h */,
+				F4D6CA911129C3DF00FF039D /* Vector.h */,
+				F4D6CA921129C3DF00FF039D /* Vector.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		F434BE5B111F62240023EEBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F434BE5C111F622D0023EEBE /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F434BE5C111F622D0023EEBE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F434BE5D111F623B0023EEBE /* CellViewTest.h */,
+				F434BE5E111F623B0023EEBE /* CellViewTest.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		F4764529113EDE2100C652AD /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				F4EC776E117D384C00A0B7EE /* Runnable.h */,
+				F4EC776F117D384C00A0B7EE /* Runnable.m */,
+				F476452B113EDE4100C652AD /* TimerTask.h */,
+				F476452C113EDE4100C652AD /* TimerTask.m */,
+			);
+			name = Thread;
+			sourceTree = "<group>";
+		};
+		F48AF6A311724D3B004844ED /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F48AF6B111724E6F004844ED /* ExitMenuitemController.h */,
+				F48AF6B211724E6F004844ED /* ExitMenuitemController.m */,
+				F48AF69C11724CDB004844ED /* GameMenuItemController.h */,
+				F48AF69D11724CDB004844ED /* GameMenuItemController.m */,
+				F406EF061172F10200EB4198 /* MainMenuItemController.h */,
+				F406EF071172F10200EB4198 /* MainMenuItemController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		F48AF6A411724D4C004844ED /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0F5931151C42600A035CD /* BackgroundElementController.h */,
+				F4A0F5941151C42600A035CD /* BackgroundElementController.m */,
+				F4D6CCAC1129DFD000FF039D /* ComputerCellController.h */,
+				F4D6CCAD1129DFD000FF039D /* ComputerCellController.m */,
+				F4549467115294E800DE04ED /* ProjectileController.h */,
+				F4549468115294E800DE04ED /* ProjectileController.m */,
+				F4F1C12B111E4F54003344F8 /* PlayerCellController.h */,
+				F4F1C12C111E4F54003344F8 /* PlayerCellController.m */,
+			);
+			name = Tokens;
+			sourceTree = "<group>";
+		};
+		F492A45B115197C800A8EC54 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				F4979A421177A75C001C90A9 /* BackgroundElementView.h */,
+				F4979A431177A75C001C90A9 /* BackgroundElementView.m */,
+				F4DEE286111E409500572265 /* CellView.h */,
+				F4DEE287111E409500572265 /* CellView.m */,
+				F4895EB31159F319004BE813 /* MenuItemView.h */,
+				F4895EB41159F319004BE813 /* MenuItemView.m */,
+				F492A4601151985700A8EC54 /* ProjectileView.h */,
+				F492A4611151985700A8EC54 /* ProjectileView.m */,
+				F497804C117A41330005DA75 /* ScoreView.h */,
+				F497804D117A41330005DA75 /* ScoreView.m */,
+				F4D74166114A944900D442D8 /* TextView.h */,
+				F4D74167114A944900D442D8 /* TextView.m */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		F4A6155C1179ED6000E7FF4D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F4B55F5311743E6A001D5820 /* CollisionHandler.h */,
+				F4B55F3F11743BAF001D5820 /* CollisionManager.h */,
+				F4B55F4011743BAF001D5820 /* CollisionManager.m */,
+				F48BF7C2117C264D0037C8A4 /* EventHandler.h */,
+				F48BF7BD117C26110037C8A4 /* EventManager.h */,
+				F48BF7BE117C26110037C8A4 /* EventManager.m */,
+				F4B37F4F11723437008F51A3 /* GameStateContext.h */,
+				F4B37F5011723437008F51A3 /* GameStateContext.m */,
+				F44CD42E117BB7AC00C933AD /* ImageManager.h */,
+				F44CD42F117BB7AC00C933AD /* ImageManager.m */,
+				F4B78900112C7EDE00670358 /* InteractionEvent.h */,
+				F4B78901112C7EDE00670358 /* InteractionEvent.m */,
+				F48A4D48116C5A22004DE3C4 /* InteractionHandler.h */,
+				F4A615571179ED5100E7FF4D /* SoundManager.h */,
+				F4A615581179ED5100E7FF4D /* SoundManager.m */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		F4BD52F9111A295900BC0120 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4979A5B1177A882001C90A9 /* BackgroundElement.h */,
+				F4979A5C1177A882001C90A9 /* BackgroundElement.m */,
+				F4BD52FD111A2B1E00BC0120 /* Cell.h */,
+				F4BD52FE111A2B1E00BC0120 /* Cell.m */,
+				F48A4D71116C5CBA004DE3C4 /* MenuItem.h */,
+				F48A4D72116C5CBA004DE3C4 /* MenuItem.m */,
+				F4BD5359111A341300BC0120 /* Organelle.h */,
+				F4BD535A111A341300BC0120 /* Organelle.m */,
+				F43CA03711234A4D008CB8B4 /* Person.h */,
+				F43CA03611234A4D008CB8B4 /* Person.m */,
+				F4B55FCC117444E0001D5820 /* Projectile.h */,
+				F4B55FCD117444E0001D5820 /* Projectile.m */,
+				F4978053117A417E0005DA75 /* Score.h */,
+				F4978054117A417E0005DA75 /* Score.m */,
+				F4B55F5611743F9D001D5820 /* Token.h */,
+				F4B55F5711743F9D001D5820 /* Token.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4BD5375111A362900BC0120 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F4D188E0111E187E0096BC61 /* Framework */,
+				F42CC94E111E022F00A69345 /* Model */,
+				F434BE5B111F62240023EEBE /* View */,
+			);
+			name = Test;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F4D188E0111E187E0096BC61 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F484F5921134826F00973807 /* ColourTest.h */,
+				F484F5931134826F00973807 /* ColourTest.m */,
+				F4D188E1111E188E0096BC61 /* ObservableTest.h */,
+				F4D188E2111E188E0096BC61 /* ObservableTest.m */,
+				F4B7898A112C898B00670358 /* VectorTest.h */,
+				F4B7898B112C898B00670358 /* VectorTest.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		F4D6CB9C1129CB6000FF039D /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				F48AF6A411724D4C004844ED /* Tokens */,
+				F48AF6A311724D3B004844ED /* Menu */,
+				F48BFB2E117CF83A0037C8A4 /* EndGame.h */,
+				F48BFB2F117CF83A0037C8A4 /* EndGame.m */,
+				F43CA05B11234AF3008CB8B4 /* Game.h */,
+				F43CA05C11234AF3008CB8B4 /* Game.m */,
+				F4895E6B1159EEA8004BE813 /* Menu.h */,
+				F4895E6C1159EEA8004BE813 /* Menu.m */,
+				F497805C117A42690005DA75 /* ScoreController.h */,
+				F497805D117A42690005DA75 /* ScoreController.m */,
+			);
+			name = Impl;
+			sourceTree = "<group>";
+		};
+		F4DEE280111E405600572265 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F4F1C14F111E5116003344F8 /* CellTest.h */,
+				F4F1C150111E5116003344F8 /* CellTest.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ImmuniseThis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ImmuniseThis" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmuniseThis;
+			productName = ImmuniseThis;
+			productReference = 1D6058910D05DD3D006BFB54 /* ImmuniseThis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F1BF95111E4B80003344F8 /* ImmuniseThisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F1BF9A111E4B82003344F8 /* Build configuration list for PBXNativeTarget "ImmuniseThisTests" */;
+			buildPhases = (
+				F4F1BF91111E4B80003344F8 /* Resources */,
+				F4F1BF92111E4B80003344F8 /* Sources */,
+				F4F1BF93111E4B80003344F8 /* Frameworks */,
+				F4F1BF94111E4B80003344F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImmuniseThisTests;
+			productName = ImmuniseThisTests;
+			productReference = F4F1BF96111E4B80003344F8 /* ImmuniseThisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F4F1BFD5111E4C22003344F8 /* ImmuniseThisTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F1BFE3111E4C22003344F8 /* Build configuration list for PBXNativeTarget "ImmuniseThisTesting" */;
+			buildPhases = (
+				F4F1BFD6111E4C22003344F8 /* Resources */,
+				F4F1BFD8111E4C22003344F8 /* Sources */,
+				F4F1BFDE111E4C22003344F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F1C0E8111E4D9C003344F8 /* PBXTargetDependency */,
+			);
+			name = ImmuniseThisTesting;
+			productName = ImmuniseThis;
+			productReference = F4F1BFE6111E4C22003344F8 /* ImmuniseThis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ImmuniseThis" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ImmuniseThis */,
+				F4F1BF95111E4B80003344F8 /* ImmuniseThisTests */,
+				F4F1BFD5111E4C22003344F8 /* ImmuniseThisTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F49259541131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */,
+				F4A6188F117A04C700E7FF4D /* boing.wav in Resources */,
+				F4A618A5117A081E00E7FF4D /* squish1.wav in Resources */,
+				F4A618A6117A081E00E7FF4D /* squish2.wav in Resources */,
+				F44CD33F117BB15C00C933AD /* enemy.png in Resources */,
+				F44CD340117BB15C00C933AD /* friendly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BF91111E4B80003344F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CD7E90112A0476008E3733 /* MainWindow.xib in Resources */,
+				F49259521131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */,
+				F4A6188D117A04C700E7FF4D /* boing.wav in Resources */,
+				F4A618A1117A081E00E7FF4D /* squish1.wav in Resources */,
+				F4A618A2117A081E00E7FF4D /* squish2.wav in Resources */,
+				F44CD341117BB15C00C933AD /* enemy.png in Resources */,
+				F44CD342117BB15C00C933AD /* friendly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BFD6111E4C22003344F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F1C0E3111E4D95003344F8 /* ImmuniseThisTests.octest in Resources */,
+				F4F1BFD7111E4C22003344F8 /* MainWindow.xib in Resources */,
+				F49259531131B1A9000E9D0A /* ImmuniseThisViewController.xib in Resources */,
+				F4A6188E117A04C700E7FF4D /* boing.wav in Resources */,
+				F4A618A3117A081E00E7FF4D /* squish1.wav in Resources */,
+				F4A618A4117A081E00E7FF4D /* squish2.wav in Resources */,
+				F44CD33D117BB15C00C933AD /* enemy.png in Resources */,
+				F44CD33E117BB15C00C933AD /* friendly.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4F1BF94111E4B80003344F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45A71D8115051B100145AB7 /* Movement.m in Sources */,
+				F43C9FDA1123477B008CB8B4 /* PlayerCellController.m in Sources */,
+				F4BD52FF111A2B1E00BC0120 /* Cell.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				F4BD535B111A341300BC0120 /* Organelle.m in Sources */,
+				F43CA03E11234A4D008CB8B4 /* Person.m in Sources */,
+				F43CA05F11234AF3008CB8B4 /* Game.m in Sources */,
+				F4D6CA951129C3DF00FF039D /* Vector.m in Sources */,
+				F4D6CB3D1129C8C700FF039D /* Arena.m in Sources */,
+				F4D6CB9B1129CB5700FF039D /* CellController.m in Sources */,
+				F4D6CCB01129DFD000FF039D /* ComputerCellController.m in Sources */,
+				F40BF6021129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */,
+				F40BF6031129FD0300A45718 /* ImmuniseThisViewController.m in Sources */,
+				F4B78902112C7EDE00670358 /* InteractionEvent.m in Sources */,
+				F484F58B1134814B00973807 /* Colour.m in Sources */,
+				F476452E113EDE4100C652AD /* TimerTask.m in Sources */,
+				F4A328E41146D6CD00404E85 /* CellConfiguration.m in Sources */,
+				F4D74168114A944900D442D8 /* TextView.m in Sources */,
+				F492A33D115134C300A8EC54 /* TokenView.m in Sources */,
+				F43C9FF9112347D0008CB8B4 /* CellView.m in Sources */,
+				F492A4641151985700A8EC54 /* ProjectileView.m in Sources */,
+				F4A0F5401151C0A700A035CD /* TokenController.m in Sources */,
+				F4A0F5961151C42600A035CD /* BackgroundElementController.m in Sources */,
+				F454946A115294E800DE04ED /* ProjectileController.m in Sources */,
+				F4895E6E1159EEA8004BE813 /* Menu.m in Sources */,
+				F4895EB61159F319004BE813 /* MenuItemView.m in Sources */,
+				F48A4D27116C58D5004DE3C4 /* MenuItemController.m in Sources */,
+				F48A4D75116C5CBA004DE3C4 /* MenuItem.m in Sources */,
+				F4B37F5211723437008F51A3 /* GameStateContext.m in Sources */,
+				F48AF69F11724CDB004844ED /* GameMenuItemController.m in Sources */,
+				F48AF6B411724E6F004844ED /* ExitMenuitemController.m in Sources */,
+				F443147E11739EFD004C5C92 /* MainMenuItemController.m in Sources */,
+				F48AF734117252C7004844ED /* GameState.m in Sources */,
+				F4B55FA411744437001D5820 /* Token.m in Sources */,
+				F4B5604A1174EDC6001D5820 /* Projectile.m in Sources */,
+				F4B5613F117508CF001D5820 /* CollisionManager.m in Sources */,
+				F4979A451177A75C001C90A9 /* BackgroundElementView.m in Sources */,
+				F4979A5F1177A882001C90A9 /* BackgroundElement.m in Sources */,
+				F4A6155B1179ED5100E7FF4D /* SoundManager.m in Sources */,
+				F497804E117A41330005DA75 /* ScoreView.m in Sources */,
+				F4978057117A417E0005DA75 /* Score.m in Sources */,
+				F497805E117A42690005DA75 /* ScoreController.m in Sources */,
+				F44CCE39117B94B300C933AD /* ProjectileDispenser.m in Sources */,
+				F44CD430117BB7AC00C933AD /* ImageManager.m in Sources */,
+				F48BF7B9117C24D50037C8A4 /* ComputerCellFactory.m in Sources */,
+				F48BF7BF117C26110037C8A4 /* EventManager.m in Sources */,
+				F48BFB30117CF83A0037C8A4 /* EndGame.m in Sources */,
+				F4EC7770117D384C00A0B7EE /* Runnable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BF92111E4B80003344F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43C9FCD1123472F008CB8B4 /* PlayerCellController.m in Sources */,
+				F4F1BFBC111E4C0E003344F8 /* Cell.m in Sources */,
+				F4F1BFAE111E4BE5003344F8 /* CellView.m in Sources */,
+				F4873CA4111F659D0067827A /* CellViewTest.m in Sources */,
+				F4F1BFB0111E4BE5003344F8 /* Organelle.m in Sources */,
+				F4F1C155111E512F003344F8 /* CellTest.m in Sources */,
+				F4F1BFA9111E4BCD003344F8 /* ObservableTest.m in Sources */,
+				F4F1BFAB111E4BCD003344F8 /* OrganelleTest.m in Sources */,
+				F4F1BFAC111E4BCD003344F8 /* PersonTest.m in Sources */,
+				F43CA03C11234A4D008CB8B4 /* Person.m in Sources */,
+				F43CA05E11234AF3008CB8B4 /* Game.m in Sources */,
+				F4D6CA931129C3DF00FF039D /* Vector.m in Sources */,
+				F4D6CB3B1129C8C700FF039D /* Arena.m in Sources */,
+				F4D6CB991129CB5700FF039D /* CellController.m in Sources */,
+				F4D6CCAE1129DFD000FF039D /* ComputerCellController.m in Sources */,
+				F40BF6041129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */,
+				F40BF6051129FD0300A45718 /* ImmuniseThisViewController.m in Sources */,
+				F4B78903112C7EDE00670358 /* InteractionEvent.m in Sources */,
+				F4B7898C112C898B00670358 /* VectorTest.m in Sources */,
+				F484F58D1134814B00973807 /* Colour.m in Sources */,
+				F484F5941134826F00973807 /* ColourTest.m in Sources */,
+				F476452D113EDE4100C652AD /* TimerTask.m in Sources */,
+				F4A328E61146D6CD00404E85 /* CellConfiguration.m in Sources */,
+				F4D7416A114A944900D442D8 /* TextView.m in Sources */,
+				F45A71D9115051B100145AB7 /* Movement.m in Sources */,
+				F492A33E115134C300A8EC54 /* TokenView.m in Sources */,
+				F492A4631151985700A8EC54 /* ProjectileView.m in Sources */,
+				F4A0F53F1151C0A700A035CD /* TokenController.m in Sources */,
+				F4A0F5951151C42600A035CD /* BackgroundElementController.m in Sources */,
+				F4549469115294E800DE04ED /* ProjectileController.m in Sources */,
+				F4895E6F1159EEA8004BE813 /* Menu.m in Sources */,
+				F4895EB71159F319004BE813 /* MenuItemView.m in Sources */,
+				F48A4D28116C58D5004DE3C4 /* MenuItemController.m in Sources */,
+				F48A4D73116C5CBA004DE3C4 /* MenuItem.m in Sources */,
+				F4B37F5311723437008F51A3 /* GameStateContext.m in Sources */,
+				F48AF6A011724CDB004844ED /* GameMenuItemController.m in Sources */,
+				F48AF6B511724E6F004844ED /* ExitMenuitemController.m in Sources */,
+				F48AF733117252C7004844ED /* GameState.m in Sources */,
+				F406EF081172F10200EB4198 /* MainMenuItemController.m in Sources */,
+				F4B55F4111743BAF001D5820 /* CollisionManager.m in Sources */,
+				F4B55F5811743F9D001D5820 /* Token.m in Sources */,
+				F4B55FCE117444E0001D5820 /* Projectile.m in Sources */,
+				F4979A441177A75C001C90A9 /* BackgroundElementView.m in Sources */,
+				F4979A5E1177A882001C90A9 /* BackgroundElement.m in Sources */,
+				F4A615591179ED5100E7FF4D /* SoundManager.m in Sources */,
+				F497804F117A41330005DA75 /* ScoreView.m in Sources */,
+				F4978056117A417E0005DA75 /* Score.m in Sources */,
+				F497805F117A42690005DA75 /* ScoreController.m in Sources */,
+				F44CCE3A117B94B300C933AD /* ProjectileDispenser.m in Sources */,
+				F44CD432117BB7AC00C933AD /* ImageManager.m in Sources */,
+				F48BF7BB117C24D50037C8A4 /* ComputerCellFactory.m in Sources */,
+				F48BF7C1117C26110037C8A4 /* EventManager.m in Sources */,
+				F48BFB32117CF83A0037C8A4 /* EndGame.m in Sources */,
+				F4EC7772117D384C00A0B7EE /* Runnable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F1BFD8111E4C22003344F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F1C12D111E4F54003344F8 /* PlayerCellController.m in Sources */,
+				F434BD5B111F51070023EEBE /* CellView.m in Sources */,
+				F4F1BFDB111E4C22003344F8 /* Cell.m in Sources */,
+				F4F1BFD9111E4C22003344F8 /* main.m in Sources */,
+				F4F1BFDD111E4C22003344F8 /* Organelle.m in Sources */,
+				F43CA03A11234A4D008CB8B4 /* Person.m in Sources */,
+				F43CA05D11234AF3008CB8B4 /* Game.m in Sources */,
+				F4D6CA941129C3DF00FF039D /* Vector.m in Sources */,
+				F4D6CB3C1129C8C700FF039D /* Arena.m in Sources */,
+				F4D6CB9A1129CB5700FF039D /* CellController.m in Sources */,
+				F4D6CCAF1129DFD000FF039D /* ComputerCellController.m in Sources */,
+				F40BF6061129FD0300A45718 /* ImmuniseThisAppDelegate.m in Sources */,
+				F40BF6071129FD0300A45718 /* ImmuniseThisViewController.m in Sources */,
+				F4B78904112C7EDE00670358 /* InteractionEvent.m in Sources */,
+				F4B7898D112C898B00670358 /* VectorTest.m in Sources */,
+				F484F58C1134814B00973807 /* Colour.m in Sources */,
+				F484F5951134826F00973807 /* ColourTest.m in Sources */,
+				F476452F113EDE4100C652AD /* TimerTask.m in Sources */,
+				F4A328E51146D6CD00404E85 /* CellConfiguration.m in Sources */,
+				F4D74169114A944900D442D8 /* TextView.m in Sources */,
+				F45A71DA115051B100145AB7 /* Movement.m in Sources */,
+				F492A33C115134C300A8EC54 /* TokenView.m in Sources */,
+				F492A4621151985700A8EC54 /* ProjectileView.m in Sources */,
+				F4A0F5411151C0A700A035CD /* TokenController.m in Sources */,
+				F4A0F5971151C42600A035CD /* BackgroundElementController.m in Sources */,
+				F454946B115294E800DE04ED /* ProjectileController.m in Sources */,
+				F4895E6D1159EEA8004BE813 /* Menu.m in Sources */,
+				F4895EB51159F319004BE813 /* MenuItemView.m in Sources */,
+				F48A4D26116C58D5004DE3C4 /* MenuItemController.m in Sources */,
+				F48A4D74116C5CBA004DE3C4 /* MenuItem.m in Sources */,
+				F4B37F5111723437008F51A3 /* GameStateContext.m in Sources */,
+				F48AF69E11724CDB004844ED /* GameMenuItemController.m in Sources */,
+				F48AF6B311724E6F004844ED /* ExitMenuitemController.m in Sources */,
+				F443147F11739F0D004C5C92 /* MainMenuItemController.m in Sources */,
+				F48AF732117252C7004844ED /* GameState.m in Sources */,
+				F4B55FA511744437001D5820 /* Token.m in Sources */,
+				F4B5604B1174EDC7001D5820 /* Projectile.m in Sources */,
+				F4B56140117508D0001D5820 /* CollisionManager.m in Sources */,
+				F4979A461177A75C001C90A9 /* BackgroundElementView.m in Sources */,
+				F4979A5D1177A882001C90A9 /* BackgroundElement.m in Sources */,
+				F4A6155A1179ED5100E7FF4D /* SoundManager.m in Sources */,
+				F4978050117A41330005DA75 /* ScoreView.m in Sources */,
+				F4978055117A417E0005DA75 /* Score.m in Sources */,
+				F4978060117A42690005DA75 /* ScoreController.m in Sources */,
+				F44CCE38117B94B300C933AD /* ProjectileDispenser.m in Sources */,
+				F44CD431117BB7AC00C933AD /* ImageManager.m in Sources */,
+				F48BF7BA117C24D50037C8A4 /* ComputerCellFactory.m in Sources */,
+				F48BF7C0117C26110037C8A4 /* EventManager.m in Sources */,
+				F48BFB31117CF83A0037C8A4 /* EndGame.m in Sources */,
+				F4EC7771117D384C00A0B7EE /* Runnable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F1C0E8111E4D9C003344F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F1BF95111E4B80003344F8 /* ImmuniseThisTests */;
+			targetProxy = F4F1C0E7111E4D9C003344F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImmuniseThis_Prefix.pch;
+				INFOPLIST_FILE = "ImmuniseThis-Info.plist";
+				PRODUCT_NAME = ImmuniseThis;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImmuniseThis_Prefix.pch;
+				INFOPLIST_FILE = "ImmuniseThis-Info.plist";
+				PRODUCT_NAME = ImmuniseThis;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F4F1BF97111E4B81003344F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "ImmuniseThisTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ImmuniseThisTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4F1BF98111E4B81003344F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "ImmuniseThisTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ImmuniseThisTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		F4F1BFE4111E4C22003344F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(DEVELOPER_FRAMEWORKS_DIR)\\\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImmuniseThis_Prefix.pch;
+				INFOPLIST_FILE = "ImmuniseThis-Info copy.plist";
+				PRODUCT_NAME = ImmuniseThis;
+			};
+			name = Debug;
+		};
+		F4F1BFE5111E4C22003344F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(DEVELOPER_FRAMEWORKS_DIR)\\\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ImmuniseThis_Prefix.pch;
+				INFOPLIST_FILE = "ImmuniseThis-Info copy.plist";
+				PRODUCT_NAME = ImmuniseThis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ImmuniseThis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ImmuniseThis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F1BF9A111E4B82003344F8 /* Build configuration list for PBXNativeTarget "ImmuniseThisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F1BF97111E4B81003344F8 /* Debug */,
+				F4F1BF98111E4B81003344F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F1BFE3111E4C22003344F8 /* Build configuration list for PBXNativeTarget "ImmuniseThisTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F1BFE4111E4C22003344F8 /* Debug */,
+				F4F1BFE5111E4C22003344F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
